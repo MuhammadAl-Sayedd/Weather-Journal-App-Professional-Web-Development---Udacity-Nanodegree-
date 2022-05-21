@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.app{
+    box-shadow: 0px 0px 0px 3px rgb(218, 214, 12)  ;
+    max-width: 600px;
+    margin: 20px auto;
+    border-radius: 7px;
+    padding: 20px;
+}
+
+.align-vertical{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ip , .op{
+    width: 100%;
+    box-shadow: 0px 0px 2px 1px rgb(218, 214, 12);
+    padding: 10px;
+    border-radius: 2px;
+}
+
+.ip{
+    margin: 30px 0;
+}
+
+textarea{
+    resize: none;
+}
+
+input , textarea {
+    width: 100%;
+    padding: 5px;
+    margin: 3px;
+}
+
+button{
+    width: 50%;
+    border: none;
+    padding: 10px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: 500;
+    background-color: #606060;
+    color: antiquewhite;
+}
+
+.date{
+    margin: 10px 0;
+}
